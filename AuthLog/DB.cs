@@ -9,7 +9,7 @@ namespace AuthLog
 {
     class DB
     {
-        MySqlConnection connection = new MySqlConnection("server=localhost; port=3306; username=root; password=5622348; database=users_inform");
+        MySqlConnection connection = new MySqlConnection("server=localhost; port=3306; username=root; password=12345; database=users_inform");
 
         public void openConnection()
         {
